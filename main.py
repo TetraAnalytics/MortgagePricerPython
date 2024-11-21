@@ -9,7 +9,7 @@ def main():
     # Define a mortgage cashflow class object to aggregate all loans' cashflows
     # aggregate = MortgageCashflows()
     # define file name and location of the loan data to import
-    csv_file_mortgage_attributes = '/Users/michaelaneiro/Downloads/mortgage_attributes.csv'  # MacBook
+    csv_file_mortgage_attributes = '/Users/michaelaneiro/Downloads/mortgage_attributes.csv'
     # use pandas function to read csv into a dataframe
     df = pd.read_csv(csv_file_mortgage_attributes)
 

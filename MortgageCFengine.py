@@ -1,6 +1,3 @@
-from MortgageModels import severity_calculation
-
-
 def calculate_single_mtge_cash(m):
     balance = m.balance
     note_rate = m.note_rate
